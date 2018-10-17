@@ -4,7 +4,7 @@ import {Goal} from '../goal'
   selector: 'app-goal',
   templateUrl: './goal.component.html',
   styleUrls: ['./goal.component.css']
-})
+})    
 export class GoalComponent implements OnInit {
   goals = [
          new Goal(1,'Watch Finding Nemo','Find an online version and watch merlin find his son',new Date(2018,9,17)),
